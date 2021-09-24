@@ -13,6 +13,15 @@ function exercise10() {
   //
   // Write code between the lines (below)
   // -----------------------------------------------------------------
+
+  let triangle = '#'
+  do {
+  console.log(triangle);
+  triangle = triangle + '#';
+    } while (triangle.length !== 8);
+
+
+
   // -----------------------------------------------------------------
   // Write code between the lines (above)
   //
